@@ -1,0 +1,10 @@
+C:\Users\Ralf Keller\Documents\GitHub\Schichtenplaner\SchichtenplanerWinForms\bin\Debug\SchichtenplanerWinForms.exe.config
+C:\Users\Ralf Keller\Documents\GitHub\Schichtenplaner\SchichtenplanerWinForms\bin\Debug\SchichtenplanerWinForms.exe
+C:\Users\Ralf Keller\Documents\GitHub\Schichtenplaner\SchichtenplanerWinForms\bin\Debug\SchichtenplanerWinForms.pdb
+C:\Users\Ralf Keller\Documents\GitHub\Schichtenplaner\SchichtenplanerWinForms\obj\Debug\SchichtenplanerWinForms.csprojResolveAssemblyReference.cache
+C:\Users\Ralf Keller\Documents\GitHub\Schichtenplaner\SchichtenplanerWinForms\obj\Debug\SchichtenplanerWinForms.Form1.resources
+C:\Users\Ralf Keller\Documents\GitHub\Schichtenplaner\SchichtenplanerWinForms\obj\Debug\SchichtenplanerWinForms.MitarbeiterDialog.resources
+C:\Users\Ralf Keller\Documents\GitHub\Schichtenplaner\SchichtenplanerWinForms\obj\Debug\SchichtenplanerWinForms.Properties.Resources.resources
+C:\Users\Ralf Keller\Documents\GitHub\Schichtenplaner\SchichtenplanerWinForms\obj\Debug\SchichtenplanerWinForms.csproj.GenerateResource.Cache
+C:\Users\Ralf Keller\Documents\GitHub\Schichtenplaner\SchichtenplanerWinForms\obj\Debug\SchichtenplanerWinForms.exe
+C:\Users\Ralf Keller\Documents\GitHub\Schichtenplaner\SchichtenplanerWinForms\obj\Debug\SchichtenplanerWinForms.pdb

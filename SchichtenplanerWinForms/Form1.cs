@@ -12,7 +12,8 @@ namespace SchichtenplanerWinForms
 {
     public partial class Form1 : Form
     {
-        BindingList<Mitarbeiter> blMitarbeiter;
+        private BindingList<Mitarbeiter> blMitarbeiter;
+        private BindingList<Arbeitsbereich> blArbeitsbereiche;
         private Rectangle dragBoxFromMouseDown;
         private int rowIndexFromMouseDown;
         private object valueFromMouseDown;
@@ -20,10 +21,21 @@ namespace SchichtenplanerWinForms
         public Form1()
         {
             InitializeComponent();
-
+            blArbeitsbereiche = new BindingList<Arbeitsbereich>();
+            blMitarbeiter = new BindingList<Mitarbeiter>();
             initializeMitarbeiterGrid();
+            initializeArbeitsbereichGrid();
         }
 
+        private void initializeArbeitsbereichGrid()
+        {
+            Arbeitsbereich k = new Arbeitsbereich() { Name = "Küche" };
+            Arbeitsbereich b = new Arbeitsbereich() { Name = "Büro" };
+            blArbeitsbereiche.Add(k);
+            blArbeitsbereiche.Add(b);
+
+            dgvArbeitsbereiche.DataSource = blArbeitsbereiche;
+        }
         private void initializeMitarbeiterGrid()
         {
             string[] arrArbeiter = new string[] { "Ralf Keller", "Rustam Karimov", "Stefan Mayer" };
@@ -61,7 +73,7 @@ namespace SchichtenplanerWinForms
         {
             Mitarbeiter neuerMitarbeiter = new Mitarbeiter();
 
-            MitarbeiterDialog diag = new MitarbeiterDialog(neuerMitarbeiter);
+            MitarbeiterDialog diag = new MitarbeiterDialog(neuerMitarbeiter, blArbeitsbereiche);
             diag.ShowDialog();
         }
 
@@ -133,6 +145,16 @@ namespace SchichtenplanerWinForms
             TreeViewHitTestInfo hitInfo = treeView1.HitTest(treeView1.PointToClient(new Point(e.X, e.Y)));
             Mitarbeiter m = (Mitarbeiter)e.Data.GetData(t);
             hitInfo.Node.Nodes.Add(m.Name);
+        }
+
+        private void btnEdit_Click(object sender, EventArgs e)
+        {
+            if (mitarbeiterGrid.SelectedRows.Count == 0)
+                return;
+
+            Mitarbeiter m = (Mitarbeiter)mitarbeiterGrid.SelectedRows[0].DataBoundItem;
+            MitarbeiterDialog diag = new MitarbeiterDialog(m, blArbeitsbereiche);
+            diag.ShowDialog();
         }
     }
 }
