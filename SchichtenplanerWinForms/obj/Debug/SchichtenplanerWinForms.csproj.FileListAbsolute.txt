@@ -8,3 +8,32 @@ C:\Users\Ralf Keller\Documents\GitHub\Schichtenplaner\SchichtenplanerWinForms\ob
 C:\Users\Ralf Keller\Documents\GitHub\Schichtenplaner\SchichtenplanerWinForms\obj\Debug\SchichtenplanerWinForms.csproj.GenerateResource.Cache
 C:\Users\Ralf Keller\Documents\GitHub\Schichtenplaner\SchichtenplanerWinForms\obj\Debug\SchichtenplanerWinForms.exe
 C:\Users\Ralf Keller\Documents\GitHub\Schichtenplaner\SchichtenplanerWinForms\obj\Debug\SchichtenplanerWinForms.pdb
+C:\Users\Ralf\Documents\GitHub\Schichtenplaner\SchichtenplanerWinForms\bin\Debug\SchichtenplanerWinForms.exe.config
+C:\Users\Ralf\Documents\GitHub\Schichtenplaner\SchichtenplanerWinForms\obj\Debug\SchichtenplanerWinForms.exe
+C:\Users\Ralf\Documents\GitHub\Schichtenplaner\SchichtenplanerWinForms\obj\Debug\SchichtenplanerWinForms.pdb
+C:\Users\Ralf\Documents\GitHub\Schichtenplaner\SchichtenplanerWinForms\bin\Debug\SchichtenplanerWinForms.exe
+C:\Users\Ralf\Documents\GitHub\Schichtenplaner\SchichtenplanerWinForms\bin\Debug\SchichtenplanerWinForms.pdb
+C:\Users\Ralf\Documents\GitHub\Schichtenplaner\SchichtenplanerWinForms\obj\Debug\SchichtenplanerWinForms.csprojResolveAssemblyReference.cache
+C:\Users\Ralf\Documents\GitHub\Schichtenplaner\SchichtenplanerWinForms\obj\Debug\SchichtenplanerWinForms.Form1.resources
+C:\Users\Ralf\Documents\GitHub\Schichtenplaner\SchichtenplanerWinForms\obj\Debug\SchichtenplanerWinForms.MitarbeiterDialog.resources
+C:\Users\Ralf\Documents\GitHub\Schichtenplaner\SchichtenplanerWinForms\obj\Debug\SchichtenplanerWinForms.Properties.Resources.resources
+C:\Users\Ralf\Documents\GitHub\Schichtenplaner\SchichtenplanerWinForms\obj\Debug\SchichtenplanerWinForms.csproj.GenerateResource.Cache
+C:\Users\Ralf\Documents\GitHub\Schichtenplaner\SchichtenplanerWinForms\obj\Debug\SchichtenplanerWinForms.SchichtDialog.resources
+C:\Users\Ralf\Documents\GitHub\Schichtenplaner\SchichtenplanerWinForms\bin\Debug\betterlistviewexpress.dll
+C:\Users\Ralf\Documents\GitHub\Schichtenplaner\SchichtenplanerWinForms\bin\Debug\betterlistviewexpress.pdb
+C:\Users\Ralf\Documents\GitHub\Schichtenplaner\SchichtenplanerWinForms\bin\Debug\betterlistviewexpress.xml
+C:\Users\Ralf\Documents\GitHub\Schichtenplaner\SchichtenplanerWinForms\bin\Debug\Syncfusion.Grid.Base.dll
+C:\Users\Ralf\Documents\GitHub\Schichtenplaner\SchichtenplanerWinForms\bin\Debug\Syncfusion.Grid.Windows.dll
+C:\Users\Ralf\Documents\GitHub\Schichtenplaner\SchichtenplanerWinForms\bin\Debug\Syncfusion.Shared.Base.dll
+C:\Users\Ralf\Documents\GitHub\Schichtenplaner\SchichtenplanerWinForms\bin\Debug\Syncfusion.Shared.Windows.dll
+C:\Users\Ralf\Documents\GitHub\Schichtenplaner\SchichtenplanerWinForms\bin\Debug\Syncfusion.Grid.Base.xml
+C:\Users\Ralf\Documents\GitHub\Schichtenplaner\SchichtenplanerWinForms\bin\Debug\Syncfusion.Grid.Windows.xml
+C:\Users\Ralf\Documents\GitHub\Schichtenplaner\SchichtenplanerWinForms\bin\Debug\Syncfusion.Shared.Base.xml
+C:\Users\Ralf\Documents\GitHub\Schichtenplaner\SchichtenplanerWinForms\bin\Debug\Syncfusion.Shared.Windows.xml
+C:\Users\Ralf\Documents\GitHub\Schichtenplaner\SchichtenplanerWinForms\bin\Debug\Syncfusion.Grid.Windows.XmlSerializers.dll
+C:\Users\Ralf\Documents\GitHub\Schichtenplaner\SchichtenplanerWinForms\bin\Debug\Syncfusion.SpellChecker.Base.dll
+C:\Users\Ralf\Documents\GitHub\Schichtenplaner\SchichtenplanerWinForms\bin\Debug\Syncfusion.Tools.Base.dll
+C:\Users\Ralf\Documents\GitHub\Schichtenplaner\SchichtenplanerWinForms\bin\Debug\Syncfusion.Tools.Windows.dll
+C:\Users\Ralf\Documents\GitHub\Schichtenplaner\SchichtenplanerWinForms\bin\Debug\Syncfusion.SpellChecker.Base.xml
+C:\Users\Ralf\Documents\GitHub\Schichtenplaner\SchichtenplanerWinForms\bin\Debug\Syncfusion.Tools.Base.xml
+C:\Users\Ralf\Documents\GitHub\Schichtenplaner\SchichtenplanerWinForms\bin\Debug\Syncfusion.Tools.Windows.xml

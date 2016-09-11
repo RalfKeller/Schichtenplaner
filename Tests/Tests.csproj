@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3437F249-CED3-4155-8DF5-EC0393B45B99}</ProjectGuid>
+    <ProjectGuid>{6D8BBE5D-306E-402E-9382-58BDD7B890DA}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SchichtenplanerWinForms</RootNamespace>
-    <AssemblyName>SchichtenplanerWinForms</AssemblyName>
+    <RootNamespace>Tests</RootNamespace>
+    <AssemblyName>Tests</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -34,10 +34,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="betterlistviewexpress, Version=3.15.0.0, Culture=neutral, PublicKeyToken=e6c91a3add447be2, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Component Owl\Better ListView Express\Redistributable\betterlistviewexpress.dll</HintPath>
-    </Reference>
     <Reference Include="EnvDTE, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
@@ -47,10 +43,11 @@
     <Reference Include="Syncfusion.Shared.Windows, Version=14.2460.0.26, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
     <Reference Include="Syncfusion.SpellChecker.Base, Version=14.2460.0.26, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
     <Reference Include="Syncfusion.Tools.Base, Version=14.2460.0.26, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
-    <Reference Include="Syncfusion.Tools.Windows, Version=14.2460.0.26, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL" />
+    <Reference Include="Syncfusion.Tools.Windows, Version=14.2460.0.26, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Design" />
+    <Reference Include="System.Drawing.Design" />
     <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -61,52 +58,27 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
-    <Reference Include="UIAutomationProvider" />
-    <Reference Include="UIAutomationTypes" />
-    <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Arbeitsbereich.cs" />
-    <Compile Include="Arbeitstag.cs" />
-    <Compile Include="Extensions.cs" />
-    <Compile Include="Forms\Form1.cs">
+    <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form1.Designer.cs">
+    <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Mitarbeiter.cs" />
-    <Compile Include="Forms\MitarbeiterDialog.cs">
-      <SubType>Form</SubType>
+    <Compile Include="Monatsplan.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Forms\MitarbeiterDialog.Designer.cs">
-      <DependentUpon>MitarbeiterDialog.cs</DependentUpon>
+    <Compile Include="Monatsplan.Designer.cs">
+      <DependentUpon>Monatsplan.cs</DependentUpon>
     </Compile>
-    <Compile Include="Monat.cs" />
-    <Compile Include="Möglichkeit.cs" />
-    <Compile Include="PriorityQueue.cs" />
-    <Compile Include="Regeln\DefaultRegeln\ArbeitszeitRegel.cs" />
-    <Compile Include="Regeln\DefaultRegeln\KrankUrlaubRegel.cs" />
-    <Compile Include="Regeln\DefaultRegeln\Freie Regeln\SchichtNichtVollBesetztRegel.cs" />
-    <Compile Include="Regeln\MöchteArbeitenRegel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Regeln\Regel.cs" />
-    <Compile Include="Regeln\RegelInfo.cs" />
-    <Compile Include="Schicht.cs" />
-    <Compile Include="Schichtart.cs" />
-    <Compile Include="Forms\SchichtDialog.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\SchichtDialog.Designer.cs">
-      <DependentUpon>SchichtDialog.cs</DependentUpon>
-    </Compile>
-    <Compile Include="SchichtNode.cs" />
-    <EmbeddedResource Include="Forms\Form1.resx">
+    <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\MitarbeiterDialog.resx">
-      <DependentUpon>MitarbeiterDialog.cs</DependentUpon>
+    <EmbeddedResource Include="Monatsplan.resx">
+      <DependentUpon>Monatsplan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -118,11 +90,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Forms\SchichtDialog.resx">
-      <DependentUpon>SchichtDialog.cs</DependentUpon>
-    </EmbeddedResource>
-    <None Include="Properties\DataSources\Arbeitsbereich.datasource" />
-    <None Include="Properties\DataSources\Mitarbeiter.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
